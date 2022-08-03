@@ -2,6 +2,7 @@ package com.example.infront.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
+import lombok.NoArgsConstructor;
 import lombok.Setter;
 
 import java.time.LocalDate;
@@ -9,6 +10,7 @@ import java.util.ArrayList;
 
 @Getter
 @Setter
+@NoArgsConstructor
 public class Event extends AbstractEvent{
     ArrayList<ActivePosition> activePositions;
 

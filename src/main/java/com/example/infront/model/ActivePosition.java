@@ -1,10 +1,12 @@
 package com.example.infront.model;
 
 import lombok.AllArgsConstructor;
+import lombok.NoArgsConstructor;
 
 import java.time.LocalDate;
 import java.util.ArrayList;
 
+@NoArgsConstructor
 public class ActivePosition extends AbstractEvent {
     String positionHolder;
 
